@@ -1,13 +1,13 @@
 import { Base } from "../components/core/base";
 import { Introduction } from "../components/Introduction";
-import { Skills } from "../components/Skills";
+import { SkillsSection } from "../components/SkillsSection";
 
 export const Home = () =>{
     return (
         <>
         <Base >
             <Introduction />
-            <Skills />
+            <SkillsSection />
         </Base>
         </>
     )

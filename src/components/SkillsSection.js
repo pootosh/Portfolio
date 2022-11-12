@@ -1,4 +1,6 @@
-export const Skills = () =>{
+import { Link } from "react-router-dom"
+
+export const SkillsSection = () =>{
     return (
         <>
         <section className="text-gray-600 body-font">
@@ -74,12 +76,12 @@ export const Skills = () =>{
                     </div>
                 </div>
 
-                <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="./Pages/Skills/skills.html" target="_blank">
+                <Link className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" to="/skills" >
                     <button
                         className="flex mx-auto mt-16 text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg">
                         Click to see more
                     </button>
-                </a>
+                </Link>
                 
             </div>
         </section>
