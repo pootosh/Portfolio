@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  
+}
+
+.header {
+    left: 0;
+    background-color: rgb(13, 34, 58);
+    margin: 0;
+    padding: 10px;
+    color: #FFFFFF;
+    
+}
+
+header a {
+    color: #FFFFFF;
+}
+
+.profile {
+    position: relative;
+    
+    left: 2;
+}
+
+.info {
+    position: relative;
+   
+    right: 10;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display:inline-block; 
+    
+}
+
+.right{
+    right: 0;
+    max-width: 70vw;
+    position: absolute;
+    padding: 2vw;
+    border-left: 1px solid bisque;
+  
+}
+.left{
+    left: 0;
+    padding: 2vw;
+    max-width: 25vw;
+    position: absolute;
+    
+}
+
+h3 {
+    color: rgb(9, 126, 126);
+}
